@@ -20,9 +20,21 @@ Set up Express routers to organise api code - done
 Start working on endpoints for projects
 Get all projects - done
 Get a project by id - done
-Get action by id - done
+Get a list of all the actions for a specific project using method getProjectActions()- done
 Post a new project - done
 Delete a new project - done
+Put/update a project - done
 
 ** Step 6 **
+Create a new file called actionsRouter.js - Done
+Use require to use actionsRouter in js - Done
+Create routers for action - Done
+Use require to import actionsRouter in server.js - Done
+
+** Step 7 **
 Start working on endpoints for actions
+Get all actions - done
+Get an action by id - done
+Post a new action - done
+Delete an action - done
+Put/update an action - done

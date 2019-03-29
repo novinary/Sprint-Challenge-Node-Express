@@ -49,20 +49,20 @@ router.get('/:id/actions', (req, res) => {
 
 // post/insert a new project
 router.post('/', (req, res) => {
-	const project = req.body;
-	if (!project.name || !project.description) {
-		return res
-			.status(404)
-			.json({ error: 'Please provide name and description.' });
-	}
-	db
-		.insert(project)
-		.then((project) => {
-			res.status(200).json(project);
-		})
-		.catch((error) => {
-			res.status(500).json({ error: 'Error adding new project to the database.' });
-		});
+    const project = req.body;
+    if (!project.name || !project.description) {
+        return res
+            .status(404)
+            .json({ error: 'Please provide name and description.' });
+    }
+    db
+        .insert(project)
+        .then((project) => {
+            res.status(200).json(project);
+        })
+        .catch((error) => {
+            res.status(500).json({ error: 'Error adding new project to the database.' });
+        });
 });
 
 // delete a project
