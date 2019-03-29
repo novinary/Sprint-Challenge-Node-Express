@@ -19,4 +19,10 @@ Set up Express routers to organise api code - done
 ** Step 5 **
 Start working on endpoints for projects
 Get all projects - done
+Get a project by id - done
+Get action by id - done
+Post a new project - done
+Delete a new project - done
 
+** Step 6 **
+Start working on endpoints for actions
