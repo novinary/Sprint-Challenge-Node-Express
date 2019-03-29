@@ -43,6 +43,11 @@ Stretch Goal
 - Use create-react-app to create an application in a separate folder (outside the API project folder). Name it anything you want. - Done
 
 - From the React application show a list of all projects using the API you built.
-Add functionality to show the details of a project, including its actions, when clicking a project name in the list. Use React Router to navigate to a separate route to show the project details.
+        - create a new components folder under src folder - Done
+        - create a functional component called Project that takes description as props - Done
+        - In App.js use axios to do a get request to projects inside of componentDidMount - Done
 
-- Add styling! Perhaps with styled-components.
+
+- Add functionality to show the details of a project, including its actions, when clicking a project name in the list. Use React Router to navigate to a separate route to show the project details. - to do 
+
+- Add styling! Perhaps with styled-components. - to do 
