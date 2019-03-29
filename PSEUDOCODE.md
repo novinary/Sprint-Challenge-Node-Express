@@ -38,3 +38,11 @@ Get an action by id - done
 Post a new action - done
 Delete an action - done
 Put/update an action - done
+
+Stretch Goal
+- Use create-react-app to create an application in a separate folder (outside the API project folder). Name it anything you want. - Done
+
+- From the React application show a list of all projects using the API you built.
+Add functionality to show the details of a project, including its actions, when clicking a project name in the list. Use React Router to navigate to a separate route to show the project details.
+
+- Add styling! Perhaps with styled-components.
