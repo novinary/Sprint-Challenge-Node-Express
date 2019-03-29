@@ -46,8 +46,8 @@ Stretch Goal
         - create a new components folder under src folder - Done
         - create a functional component called Project that takes description as props - Done
         - In App.js use axios to do a get request to projects inside of componentDidMount - Done
-
-
+        - install and use cors middleware 
+        - use cors middleware to allow request from my api - Done
 - Add functionality to show the details of a project, including its actions, when clicking a project name in the list. Use React Router to navigate to a separate route to show the project details. - to do 
 
 - Add styling! Perhaps with styled-components. - to do 
